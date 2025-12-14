@@ -1,6 +1,6 @@
 # Tailwind CSS Classes Explanation
 
-![Alt Text](./src/images/Screenshot 2025-12-12 122404.png)
+![Alt Text](./src/images/Screenshot.png)
 
 این فایل توضیح مختصری از کلاس‌های Tailwind CSS استفاده‌شده در پروژه است.
 
