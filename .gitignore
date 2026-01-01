@@ -1,3 +1,6 @@
 suggested-project/node_modules
 suggested-project/package.json
 suggested-project/package-lock.json
+login_page/package.json
+login_page/package-lock.json
+login_page/node_modules

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه ورود</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-[#174993] flex items-center justify-center min-h-screen font-byekan">
+
+    <div class="bg-white rounded-2xl shadow-2xl flex w-full max-w-4xl overflow-hidden m-2.5">
+
+        <div class="hidden md:flex md:w-1/3 items-center justify-center bg-gray-100">
+            <img src="./image/arm-khorasan.webp" alt="Login Image" class="max-h-96 max-w-full object-contain">
+        </div>
+
+        <div class="w-full md:w-2/3 p-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">ورود به حساب کاربری</h2>
+
+            <form class="space-y-4">
+                <div>
+                    <label class="block text-gray-600 mb-1" for="email">شناسه کاربری</label>
+                    <input type="email" id="email" placeholder="شناسه کاربری خود را وارد کنید"
+                        class="w-full  px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#174993] focus:border-transparent" />
+                </div>
+
+                <div>
+                    <label class="block text-gray-600 mb-1" for="password">رمز عبور</label>
+                    <input type="password" id="password" placeholder="رمز عبور خود را وارد کنید"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#174993] focus:border-transparent" />
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-[#f7c009] text-white py-2 rounded-lg hover:bg-[#e98022] transition-colors duration-300 font-semibold">
+                    ورود
+                </button>
+                <button type="submit"
+                    class="w-full bg-white text-gray-900 py-2 rounded-lg border hover:bg-[#174993] hover:text-white border-gray-900 transition-colors duration-300 font-semibold">
+                    ورود از پنجره خدمات دولت
+                </button>
+            </form>
+
+            <p class="text-center text-gray-500 mt-4">
+                رمز عبور را فراموش کردید؟
+                <a href="#" class="text-gray-800 hover:underline hover:text-[#174993]">بازیابی رمز عبور</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
